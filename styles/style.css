@@ -30,8 +30,6 @@ body{
     height: 650px;
     /* border: 2px solid; */
 
-
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,7 +242,7 @@ body{
 .requirement-section-container{
     width: 90%;
     height: 320px;
-    border: 2px solid rgba(39, 39, 39, 0.05);
+    border: 1px solid rgba(39, 39, 39, 0.05);
 
     /* margin-bottom: 180px; */
     margin: 0 auto;
@@ -284,4 +282,92 @@ body{
     width: 372px;
     height: 35px;
     margin-top: 20px;
+}
+
+/* hot-deal-section-container styles starts here  */
+.hot-deal-section-container{
+    width: 100%;
+    height: 620px;
+    /* border: 2px solid; */
+    margin-top: 80px ;
+}
+.hot-deal-section-content{
+    width: 79%;
+    height: 620px;
+    margin: 0 auto;
+    /* border: 2px solid; */
+    display: flex;
+
+
+}
+.hot-deal-text-content{
+    width: 50%;
+    /* border: 2px solid; */
+    /* margin: 0 auto; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.hot-deal-text-content h2{
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+    color: #272727;
+
+    margin-bottom: 20px;
+
+}
+.hot-deal-text-content p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+#hot-pink{
+    color: #E55473;
+}
+.hot-deal-image{
+    /* width: 50%; */
+    /* border: 2px solid; */
+    
+    margin: 0 auto;
+    display: flex;
+    margin-top: 90px;
+
+    /* justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+
+    width: 318px;
+    height: 420px;
+}
+#sign-btn{
+    /* width: 100px;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(229, 84, 115);
+    color: white; */
+
+    border-radius: 8px;
+    border: none;
+    padding-top: 8px;
+    margin-top: 40px;
+    
+    width: 140px;
+    height: 45px ;
+    
+    background: rgb(229, 84, 115);   
+    color: rgb(255, 255, 255);
+    
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+   
 }
