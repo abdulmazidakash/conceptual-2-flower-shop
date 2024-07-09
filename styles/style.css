@@ -9,6 +9,7 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+
 .banner-section-container{
     max-width: 1440px;
     height: 650px;
@@ -96,6 +97,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
     width: 50%;
     margin: 0 auto;
 }
@@ -108,9 +110,11 @@ body{
 .first-image, .second-image, .third-image{
     width: 33%;
     height: 530px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
+   
     /* margin: 0 auto; */
     border-radius: 50% 50% 0 0;
     /* border: 2px solid; */
@@ -135,6 +139,7 @@ body{
     height: 1050px;
     /* border: 2px solid; */
     margin: 0 auto;
+    margin-top: 80px;
 }
 .instagram-text-content{
     width: 50%;
@@ -215,6 +220,7 @@ body{
     flex-direction: column;
    justify-content: center; 
    align-items: center;
+   
    background-color: black;
    color: white;
 }
@@ -233,4 +239,49 @@ body{
 .footer-section-container h5{
     margin-top: 50px;
     
+}
+/* requirement-section-container styles starts here  */
+.requirement-section-container{
+    width: 90%;
+    height: 320px;
+    border: 2px solid rgba(39, 39, 39, 0.05);
+
+    /* margin-bottom: 180px; */
+    margin: 0 auto;
+    
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+.requirement-section-content{
+    width: 70%;
+    
+    display: flex;
+    justify-content: space-between;
+
+    /* align-items: center;  */
+        /* flex-direction: column; */
+    
+    margin: 0 auto;
+    margin-top: 100px;   
+}
+.requirement-image{
+    width: 77px;
+    height: 82.5px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+/* .requirement-image img{
+    width: 90%;
+    height: 90%;
+
+} */
+.requirement-description{
+    width: 372px;
+    height: 35px;
+    margin-top: 20px;
 }
